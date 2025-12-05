@@ -8,9 +8,15 @@ class HomePage extends StatelessWidget{
       floatingActionButton: FloatingActionButton(onPressed: (){}),
       appBar: AppBar(
         backgroundColor: Colors.grey,
-        title: Text("Hi"),
+        title: Text("Hi"),),
+      body:Center(
+        child: Container(
+          decoration: BoxDecoration(),
+            child: Text("Hello Yara",
+              style: TextStyle(fontSize: 24),
+            ),
+        ),
       ),
-      body:Center(child: Text("Hello Yara",style: TextStyle(fontSize: 24),)),
     );
 
   }
