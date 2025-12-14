@@ -1,23 +1,19 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget{
-  const HomePage({super.key});
-
+  // const HomePage({super.key});
+  AudioPlayer player = AudioPlayer();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(onPressed: (){}),
       appBar: AppBar(
-        backgroundColor: Colors.grey,
-        title: Text("Hi"),),
-      body:Center(
-        child: Container(
-          decoration: BoxDecoration(),
-            child: Text("Hello Yara",
-              style: TextStyle(fontSize: 24),
-            ),
-        ),
-      ),
-    );
+        backgroundColor: Colors.amber,
+        title: Text("Animals sound"),),
+      // body: ListView.builder(
+      //   itemCount: ,
+      //   itemBuilder: ,
+      //   ),
+      );
 
   }
 }
